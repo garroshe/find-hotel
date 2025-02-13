@@ -1,0 +1,133 @@
+.promo {
+    padding: 16px 0 100px 0;
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+        margin-bottom: 0;
+
+        li {
+            a {
+                color: $color-text;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+        }
+    }
+
+    &__account {
+        cursor: pointer;
+    }
+
+    &__language {
+        cursor: pointer;
+    }
+
+    &__currency {
+        cursor: pointer;
+    }
+
+    &__interaction {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        div {
+            color: $color-interaction;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+    }
+
+    &__info {
+        position: relative;
+        min-height: 500px;
+        padding: 70px;
+        background: url('../../img/promo/bg.jpg') center center / cover no-repeat;
+        color: $color-text;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        &__search {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            width: 570px;
+            height: 70px;
+            box-sizing: border-box;
+            border: 1px solid #D6D6D6;
+            border-radius: 36px;
+            box-shadow: 0px 0px 8px 0px $color-white;
+            background: $color-white;
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 14px 14px 25px;
+
+            &__item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+
+            .divider {
+                border: 2px solid rgb(235, 235, 235);
+                height: 40px;
+            }
+
+            &__title {
+                color: $color-text;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            &__text {
+                color: #A3A3A3;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            &__dandruff {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                background-color: $color-interaction;
+                border-radius: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+}

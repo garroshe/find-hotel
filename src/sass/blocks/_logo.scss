@@ -1,0 +1,11 @@
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    color: $color-interaction;
+
+    &__blue {
+        color: $color-accent;
+    }
+}
