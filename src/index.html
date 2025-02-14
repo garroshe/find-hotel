@@ -18,40 +18,42 @@
             <header>
                 <div class="promo__menu">
                     <div class="logo"><span class="logo__blue">Your</span>.logo</div>
-                    <ul class="promo__nav">
-                        <li><a href="#">Last Minute Deals</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
+                    <nav>
+                        <ul class="promo__nav">
+                            <li><a href="#">Last Minute Deals</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="promo__interaction">
-                    <div tabindex="0" class="promo__currency" aria-label="Select currency">$</div>
-                    <div tabindex="0" class="promo__language" aria-label="Select language">EN</div>
-                    <img tabindex="0" class="promo__account" src="icons/promo/account.svg" alt="account icon">
+                    <div tabindex="0" class="promo__currency" role="button" aria-label="Select currency">$</div>
+                    <div tabindex="0" class="promo__language" role="button" aria-label="Select language">EN</div>
+                    <img tabindex="0" class="promo__account" src="icons/promo/account.svg" alt="User account">
                 </div>
             </header>
             <div class="promo__info">
                 <h1>Find an apartment <br> for your vacation</h1>
                 <p class="promo__info__text">We have several thousand apartments <br> for every taste in every corner of the globe</p>
-                <div class="promo__info__search">
-                    <div tabindex="0" role="select destination" class="promo__info__search__item">
-                        <img src="icons/promo/mark.svg" alt="location mark">
+                <div class="promo__search">
+                    <div tabindex="0" aria-label="select destination" class="promo__search-item">
+                        <img src="icons/promo/mark.svg" alt="Location selection">
                         <div>
-                            <div class="promo__info__search-title">Where</div>
-                            <div class="promo__info__search-subtitle">Search Destination</div>
+                            <div class="promo__search-title">Where</div>
+                            <div class="promo__search-subtitle">Search Destination</div>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div tabindex="0" role="select date" class="promo__info__search__item">
-                        <img src="icons/promo/calendar.svg" alt="icon calendar">
+                    <div tabindex="0" aria-label="select date" class="promo__search-item">
+                        <img src="icons/promo/calendar.svg" alt="Select date">
                         <div>
-                            <div class="promo__info__search-title">When</div>
-                            <div class="promo__info__search-subtitle">Select Date</div>
+                            <div class="promo__search-title">When</div>
+                            <div class="promo__search-subtitle">Select Date</div>
                         </div>
                     </div>
-                    <button class="promo__info__search-btn" aria-label="Search">
-                        <img src="icons/promo/dandruff.svg" alt="icon search">
+                    <button class="promo__search-btn" aria-label="Search apartments">
+                        <img src="icons/promo/dandruff.svg" alt="Search button">
                     </button>
                 </div>
             </div>
