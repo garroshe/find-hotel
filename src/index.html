@@ -26,35 +26,45 @@
                     </ul>
                 </div>
                 <div class="promo__interaction">
-                    <div tabindex="0" role="currency" class="promo__currency">$</div>
-                    <div tabindex="0" role="language" class="promo__language">EN</div>
+                    <div tabindex="0" class="promo__currency" aria-label="Select currency">$</div>
+                    <div tabindex="0" class="promo__language" aria-label="Select language">EN</div>
                     <img tabindex="0" class="promo__account" src="icons/promo/account.svg" alt="account icon">
                 </div>
             </header>
             <div class="promo__info">
                 <h1>Find an apartment <br> for your vacation</h1>
-                <div class="promo__info__text">We have several thousand apartments <br> for every taste in every corner of the globe</div>
+                <p class="promo__info__text">We have several thousand apartments <br> for every taste in every corner of the globe</p>
                 <div class="promo__info__search">
-                    <div tabindex="0" role="select destination class="promo__info__search__item">
+                    <div tabindex="0" role="select destination" class="promo__info__search__item">
                         <img src="icons/promo/mark.svg" alt="mark">
                         <div>
-                            <div class="promo__info__search__title">Where</div>
-                            <div class="promo__info__search__text">Search Destination</div>
+                            <div class="promo__info__search-title">Where</div>
+                            <div class="promo__info__search-subtitle">Search Destination</div>
                         </div>
                     </div>
                     <div class="divider"></div>
                     <div tabindex="0" role="select date" class="promo__info__search__item">
                         <img src="icons/promo/calendar.svg" alt="calendar">
                         <div>
-                            <div class="promo__info__search__title">When</div>
-                            <div class="promo__info__search__text">Select Date</div>
+                            <div class="promo__info__search-title">When</div>
+                            <div class="promo__info__search-subtitle">Select Date</div>
                         </div>
                     </div>
-                    <div tabindex="0" class="promo__info__search__dandruff" role="search">
-                        <img src="icons/promo/dandruff.svg" alt="dandruff">
-                    </div>
+                    <button class="promo__info__search-btn" aria-label="Search">
+                        <img src="icons/promo/dandruff.svg" alt="Search">
+                    </button>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <p class="why__text">
+                The main reason is because our competitors have disgusting sites, but we can' t write that here, so the text here will be different
+            </p>
+
         </div>
     </section>
 
