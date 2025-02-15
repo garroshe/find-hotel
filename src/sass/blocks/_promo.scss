@@ -59,7 +59,7 @@
 
     &__info {
         position: relative;
-        min-height: 500px;
+        min-height: calc(500px - 140px);
         padding: 70px;
         background: url('../../img/promo/bg.jpg') center center / cover no-repeat;
         color: $color-text;

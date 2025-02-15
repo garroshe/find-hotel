@@ -1,0 +1,99 @@
+.footer {
+    padding: 60px 0 30px 0;
+    background-color: #F3F2F0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+
+        &-title {
+            color: $color-text;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                margin-top: 20px;
+                a {
+                    color: $color-text;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        
+        &-title {
+            color: $color-text;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            
+            overflow: hidden;
+        }
+
+        label {
+            color: $color-text;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+
+        input {
+            width: 300px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 1px solid $color-interaction;
+            border-radius: 10px;
+            background: $color-white;
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 1px solid $color-interaction;
+            border-radius: 0px 10px 10px 0px;
+            background: $color-interaction;
+        }
+    }
+
+    hr {
+        margin: 50px 0 20px 0;
+    }
+
+    &__details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__social {
+        display: flex;
+        gap: 12px;
+    }
+
+    &__design {
+        color: $color-text;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+    }
+}
