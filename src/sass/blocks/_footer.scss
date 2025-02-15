@@ -93,7 +93,12 @@
     &__design {
         color: $color-text;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 17px;
+
+        a {
+            color: $color-accent;
+            font-weight: 600;
+        }
     }
 }
