@@ -10,9 +10,12 @@
 @import 'base/variables';
 
 .container {
-    width: 1440px;
+    width: 1170px;
     margin: 0 auto;
 }
 
 @import 'blocks/logo';
 @import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/why';
+@import 'blocks/offers';
